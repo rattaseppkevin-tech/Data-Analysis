@@ -1,2 +1,2 @@
 # Data-Analysis-Specialization
-Udemy - Data Analysis A-Z.
+Learning Data Analysis with Python Numpy & Pandas.
