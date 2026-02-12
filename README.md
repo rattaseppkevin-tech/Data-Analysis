@@ -1,2 +1,2 @@
 # Data-Analysis-Specialization
-My data analysis learning path.
+Udemy - Data analysis a-z.
