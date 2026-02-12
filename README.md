@@ -1,2 +1,2 @@
 # Data-Analysis-Specialization
-Udemy - Data analysis a-z.
+Udemy - Data Analysis A-Z.
