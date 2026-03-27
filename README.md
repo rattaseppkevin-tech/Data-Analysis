@@ -1,34 +1,41 @@
-# Data Analysis with Python: NumPy & Pandas Masterclass
+# 📊 Data Analysis with Python: NumPy & Pandas Masterclass
 
-This repository contains my progress, code exercises, and projects from the **Udemy Data Analysis Masterclass**. The focus is on mastering the Python data science stack to clean, explore, and analyze real-world datasets.
+This repository documents my comprehensive training in data analysis using the Python ecosystem. The project follows the curriculum of the **Udemy Data Analysis Masterclass**, covering the end-to-end workflow of a Data Analyst—from raw data ingestion to advanced aggregation and visualization.
 
-## 📁 Course Curriculum Overview
-The repository is structured following the core modules of the course:
+## 📁 Course Curriculum & Project Structure
+The repository is organized into modules following the official course syllabus:
 
-1.  **NumPy Primer** – Mastering multi-dimensional arrays and vectorized operations.
-2.  **Pandas Series** – Deep dive into 1D data structures and indexing.
-3.  **Intro to DataFrames** – Working with 2D tabular data.
-4.  **Aggregating & Reshaping** – Grouping data, pivot tables, and multi-indexing.
-5.  **Basic Data Visualization** – Creating plots using Matplotlib and Seaborn within Python.
-6.  **Analyzing Dates & Times** – Time series analysis and date manipulation.
-7.  **Importing & Exporting Data** – Working with various file formats (CSV, Excel, etc.).
-8.  **Joining DataFrames** – Merging and concatenating multiple datasets.
-9.  **Projects** – Includes the Mid-Course and Final Course projects.
+* **01 NumPy Primer:** Numerical computing and array manipulation.
+* **02 Pandas Series:** Fundamental 1D data structures and indexing.
+* **03 Intro to DataFrames:** Tabular data management and structure.
+* **04 Filtering DataFrames:** Conditional logic and data subsetting.
+* **05 Aggregating & Reshaping:** Grouping, Pivot Tables, and Multi-indexing.
+* **06 Basic Data Visualization:** Plotting with Matplotlib and Seaborn.
+* **07 Analyzing Dates & Times:** Time-series analysis and temporal data.
+* **08 Importing & Exporting Data:** Handling CSV, Excel, and SQL formats.
+* **09 Joining DataFrames:** Merging, Joining, and Concatenating datasets.
+* **10 Mid-Course & Final Projects:** Comprehensive end-of-module business cases.
 
 ---
 
-## 🛠️ Technical Skills Acquired
+## 🛠️ Core Technical Skills
 
-### Data Manipulation & Feature Engineering
-Based on the course requirements, I have developed proficiency in:
-* **Time Series Analysis:** Extracting temporal components (Year, Month, Day of Week) and performing date arithmetic.
-* **Recency Calculation:** Determining the time elapsed since the maximum date in a dataset for behavioral analysis.
-* **Data Formatting:** Converting datetime objects into specific string formats (e.g., `YYYY-Month-DD`).
-* **Advanced Operations:** Using `.assign()` for clean, readable code and `.dt` accessors for date manipulation.
+### Data Manipulation & Analysis (Pandas)
+* **Table Operations:** Advanced filtering, sorting, and conditional data selection.
+* **Aggregation:** Summarizing large datasets using `.groupby()`, `.pivot_table()`, and `.agg()` methods.
+* **Relational Data:** Merging and joining multiple DataFrames to create unified datasets for analysis.
+* **Time-Series Analysis:** Handling timestamps, converting timezones, and performing period-based calculations (Daily/Monthly/Yearly trends).
+* **Feature Engineering:** Creating new metrics through vectorization and the `.assign()` method.
 
-### Array & Vectorized Computing
-* Leveraging **NumPy** for high-performance numerical operations.
-* Understanding the transition from NumPy arrays to specialized **Pandas** Series and DataFrames.
+### Numerical Computing (NumPy)
+* Mastering N-dimensional arrays for efficient data storage and processing.
+* Utilizing **vectorized operations** to perform high-speed calculations without Python loops.
+* Applying broadcasting and boolean masking for complex data filtering.
+
+### Data Visualization & Reporting
+* Generating clear and insightful charts (Line, Bar, Scatter) to communicate findings.
+* Customizing plots using **Matplotlib** and **Seaborn** to ensure professional delivery.
+* Automating the export of cleaned data into report-ready formats (CSV, XLSX).
 
 ---
 
@@ -37,11 +44,3 @@ Based on the course requirements, I have developed proficiency in:
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 * **IDE:** Visual Studio Code (VS Code)
 * **Notebooks:** Jupyter Notebooks (`.ipynb`)
-
----
-
-## 📝 Practical Example
-One of the key tasks in the "Analyzing Dates & Times" module involved:
-1.  Enriching transaction data with year/month/weekday columns.
-2.  Identifying the `max()` transaction date to calculate the age of each record.
-3.  Standardizing date columns for reporting purposes.
